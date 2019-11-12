@@ -1,0 +1,30 @@
+.description{
+	display: flex;
+	justify-content: space-between;
+}
+
+.image{
+	width: 30%;
+	height: 400px;
+}
+
+.instruction{
+	width: 67%;
+	height: 400px;
+}
+
+
+.ingredients{
+	display: flex;
+}
+
+
+.ingredient{
+	width:20%;
+
+}
+
+.measure{
+	width:20%;
+
+}

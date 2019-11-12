@@ -1,0 +1,25 @@
+.recomendationSection{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ourRecomendation{
+	/*height: 350px;*/
+	width: 27%;
+	/*border: 2px solid black;*/
+}
+
+
+
+.search{
+	height: 200px;
+	width: 25%;
+	/*border: 2px solid black;*/
+	margin-top: 50px;
+}
+
+div hr {
+	margin: 60px 0 40px 0;
+}
+

@@ -1,0 +1,12 @@
+.randomMeals{
+	display: flex;
+
+}
+
+.randomMeals div {
+	width: 250px;
+	margin-right: 20px;
+	height: 350px;
+	/*border: 2px solid green;*/
+}
+

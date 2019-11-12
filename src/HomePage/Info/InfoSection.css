@@ -1,0 +1,40 @@
+.infoSection {
+	display: flex;	
+	/*display: inline-flex;*/
+	/*flex-wrap: 	wrap;	*/
+	flex-direction: row;
+	/*border: 20px solid red;*/
+	justify-content: space-between;
+}
+
+.infoText{
+		/*border: 2px solid green;*/
+		width: 	35%;
+		/*height: 300px;*/
+}
+
+.infoPhoto{
+		/*border: 2px solid green;*/
+		width: 	45%;
+		height: 300px;
+}
+
+.aboutUs {
+	margin: 120px 0 65px 0;
+	/*border-bottom: 3px solid black;*/
+	/*border-size: 30px;*/
+	/*text-decoration: underline;*/
+	/*text-decoration-position: 50px;*/
+	display:inline-block;
+ 	position:relative;
+}
+
+.aboutUs::after{
+  content:'';
+  height:4px;
+  width:100%;
+  background:#f24432;
+  position:absolute;
+  left:0;
+  bottom:-15px;
+}

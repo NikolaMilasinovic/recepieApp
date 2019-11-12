@@ -1,0 +1,19 @@
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	width: 120px;
+	height: 120px;
+	/*border: 2px solid yellow;*/
+}
+.socialMedia{
+	width: 70px;
+	height: 26.6px;
+	margin-right: 50px;
+	/*border: 2px solid yellow;*/
+	display: flex;
+	justify-content: space-between;
+
+}

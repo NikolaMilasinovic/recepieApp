@@ -1,0 +1,27 @@
+form{
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	display: grid;
+	grid-row-gap: 20px;
+/*grid-column-gap: 9px;*/
+	/*padding: 10px*/
+}
+
+
+.ContactSection{
+	width: 35%;
+	/*height: 300px;*/
+	margin: 3% auto;
+	/*border: 2px solid blue;*/
+}
+
+.formItem{
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	outline:none;
+}
+
+.formItem:focus{
+	border: 1px solid blue;
+}
