@@ -14,9 +14,9 @@ class Header extends Component{
         	 <input type="text" className="searchTerm" placeholder="Search recepies"/>
         	</div>
         	<div className="icon">
-        		<a className="searchButton">
+        		<p className="searchButton">
 		        	<img style={{"width":"60%", "height":"60%"}} src={searchIcon} alt='search icon'/>
-		      	</a>
+		      	</p>
         	</div>
 		      
         </div>

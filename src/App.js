@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from './Header';
 import HomePage from './HomePage';
@@ -7,11 +7,8 @@ import Category from './CategoryPage';
 import Footer from './Footer';
 import	'./App.css';
 
-class App extends Component{
-	constructor(props){
-    super(props);
-  }
-  render(){
+const App = () =>{
+
     return(
 		<Router>	
 	      <div className='container'>
@@ -25,7 +22,6 @@ class App extends Component{
 	      </div>
 	    </Router>
     )
-  }
 }
 
 export default App;

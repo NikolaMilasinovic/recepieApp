@@ -23,7 +23,7 @@ const MealDescription = ({Meal,Ingredients,Measures}) => {
 				</div>
 			</div>
 			<div className='ingredients'>
-				<div className='ingredient'>
+				<div className='ingredient' style={{"marginTop":"40px"}}>
 		 			<p style={{"fontWeight": "bold"}}>Ingredient</p>
 
 					{
@@ -37,7 +37,7 @@ const MealDescription = ({Meal,Ingredients,Measures}) => {
 						})
 					}
 				</div>
-				<div className='measure'>
+				<div className='measure' style={{"marginTop":"40px"}}>
 		 			<p style={{"fontWeight": "bold"}}>Measure</p>
 
 					{

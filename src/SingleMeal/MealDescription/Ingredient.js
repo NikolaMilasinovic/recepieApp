@@ -6,7 +6,7 @@ import React from 'react';
 const Ingredient = ({Ingredient}) => {
 	
 	return(
-		<div>
+		<div >
 		 	<p>{Ingredient}</p>
 		</div>
 	)
